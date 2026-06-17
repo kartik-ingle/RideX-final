@@ -1,0 +1,47 @@
+{
+  "name": "ridex",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@icons-pack/react-simple-icons": "^13.13.0",
+    "@reduxjs/toolkit": "^2.11.2",
+    "@zegocloud/zego-uikit-prebuilt": "^2.17.3",
+    "axios": "^1.13.6",
+    "bcryptjs": "^3.0.3",
+    "cloudinary": "^2.9.0",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^1.7.0",
+    "mongoose": "^9.3.2",
+    "motion": "^12.38.0",
+    "next": "16.2.1",
+    "next-auth": "5.0.0-beta.30",
+    "nodemailer": "^7.0.13",
+    "nodemon": "^3.1.14",
+    "razorpay": "^2.9.6",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-leaflet": "^5.0.0",
+    "react-redux": "^9.2.0",
+    "rechart": "^0.0.1",
+    "recharts": "^3.8.1",
+    "socket.io-client": "^4.8.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/leaflet": "^1.9.21",
+    "@types/node": "^20",
+    "@types/nodemailer": "^7.0.11",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^10.1.0",
+    "eslint-config-next": "^0.2.4",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
